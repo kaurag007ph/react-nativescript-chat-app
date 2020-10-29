@@ -1,0 +1,81 @@
+/**
+ * Place any CSS rules you want to apply on both iOS and Android here.
+ * This is where the vast majority of your CSS code goes.
+ * Font icon class
+ */
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+.page {
+    background-color: #585fb2;
+    height: 100%;
+}
+.container {
+    background: #ffffff;
+    border-radius: 38 38 0 0;
+    margin-top: 32;
+    height: 100%;
+}
+
+ListView {
+    height: 100%;
+}
+
+Label {
+    font-size: 12;
+    margin: 4 0;
+    line-height: 4;
+}
+
+.h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 24 0;
+    font-size: 28;
+}
+
+.primary-lbl { color: #473964; }
+.name { font-weight: bold; font-size: 14; }
+
+.time { color: gray; }
+
+.messages, .messages Label, .messages .avatar { transform: scaleY(-1); }
+.message-container { columns: auto, *, auto; padding: 8 24; }
+.avatar { col: 0; vertical-alignment: top }
+.message { col: 1; }
+.time {
+    color: gray;
+    horizontal-alignment: right;
+    vertical-alignment: center;
+    col: 2;
+}
+.message Label {
+    color: #776F8C;
+    font-weight: 600;
+    background-color: #EFF0F1;
+    border-radius: 32 32 32 0;
+    text-wrap: true;
+    padding: 24 12;
+    margin: 0 24 0 12;
+}
+.is-me .avatar { col: 2; }
+.is-me .time { col: 0; }
+.is-me .message { justify-content: flex-end; }
+.is-me .message Label {
+    border-radius: 32 32 0 32;
+    margin: 0 0 0 24;
+    background-color: #EDEEF7;
+    align-self: flex-end;
+}
