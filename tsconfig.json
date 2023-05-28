@@ -1,26 +1,28 @@
 {
   "compilerOptions": {
-      "module": "esnext",
-      "target": "es2017",
-      "moduleResolution": "node",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "noEmitHelpers": true,
-      "noEmitOnError": true,
-      "jsx": "react",
-      "lib": [
-          "es6",
-          "dom"
-      ],
-      "baseUrl": ".",
-      "paths": {
-          "~/*": [
-              "src/*"
-          ]
-      }
+    "module": "esnext",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    },
+    "removeComments": false
   },
   "exclude": [
-      "node_modules",
-      "platforms"
+    "node_modules",
+    "platforms"
   ]
 }
